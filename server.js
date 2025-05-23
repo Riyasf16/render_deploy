@@ -7,7 +7,7 @@ app.use(express.json());
 
 // Test route
 app.get('/', (req, res) => {
-  res.send('✅ Now the backend works fine!');
+  res.send('✅ Server is up and running!');
 });
 
 // Another sample API route
